@@ -17,7 +17,7 @@ public class Ln {
     }
 
     public String getKhaledlink() {
-        return isRTLLanguage ? "https://online.fliphtml5.com/miyqo/coqt/" : "https://online.fliphtml5.com/miyqo/mihh/";
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/about/ar_Prince-Khalid/" : "https://www.kingfaisalappstore.org/about/en_Prince-Khalid";
     }
 
     public String getAngayza() {
@@ -58,31 +58,31 @@ public class Ln {
     }
 
     public String getNabzaLink() {
-        return isRTLLanguage ? "https://online.fliphtml5.com/miyqo/iujs/" : "https://online.fliphtml5.com/miyqo/awzt/";
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/about/arSummary" : "https://www.kingfaisalappstore.org/about/enSummary";
     }
 
     public String getEnshaaLink() {
-        return isRTLLanguage ? "https://online.fliphtml5.com/miyqo/gqvq/" : "https://online.fliphtml5.com/miyqo/uyze/";
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/about/arEstablishment" : "https://www.kingfaisalappstore.org/about/enEstablishment";
     }
 
     public String getAhdafLink() {
-        return isRTLLanguage ? "https://online.fliphtml5.com/miyqo/cnwp/" : "https://online.fliphtml5.com/miyqo/dnvq/";
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/about/arObjectives" : "https://www.kingfaisalappstore.org/about/enObjectives";
     }
 
     public String getAmanaLink() {
-        return isRTLLanguage ? "https://online.fliphtml5.com/miyqo/fvqv/" : "https://online.fliphtml5.com/miyqo/jtsu/";
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/about/arGeneral-Secretariat" : "https://www.kingfaisalappstore.org/about/enGeneral-Secretariat";
     }
 
     public String getTare5Link() {
-        return isRTLLanguage ? "https://online.fliphtml5.com/miyqo/soje/" : "https://online.fliphtml5.com/miyqo/rxhx/";
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/about/arHistory" : "https://www.kingfaisalappstore.org/about/enHistory";
     }
 
     public String getMokawnatLink() {
-        return isRTLLanguage ? "https://online.fliphtml5.com/miyqo/pjat/" : "https://online.fliphtml5.com/miyqo/ccml/";
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/about/arComponents" : "https://www.kingfaisalappstore.org/about/enComponents";
     }
 
     public String getHay2aLink() {
-        return isRTLLanguage ? "https://online.fliphtml5.com/miyqo/zcif/" : "https://online.fliphtml5.com/miyqo/rqwp/";
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/about/arCommittee" : "https://www.kingfaisalappstore.org/about/enCommittee";
     }
 
     public String getMas2olenLink() {
@@ -114,31 +114,47 @@ public class Ln {
     }
 
     public String getEslamLink() {
-        return isRTLLanguage ? "https://online.fliphtml5.com/miyqo/zuzk/" : "https://online.fliphtml5.com/miyqo/ykoc/";
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/Categories/arService_Islam" : "https://www.kingfaisalappstore.org/Categories/enService_Islam";
     }
 
     public String getArabicLink() {
-        return isRTLLanguage ? "https://online.fliphtml5.com/miyqo/iltt/" : "https://online.fliphtml5.com/miyqo/mqhh/";
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/Categories/arArabic_Literature" : "https://www.kingfaisalappstore.org/Categories/arArabic_Literature";
     }
 
     public String getStudiesLink() {
-        return isRTLLanguage ? "https://online.fliphtml5.com/miyqo/qbma/" : "https://online.fliphtml5.com/miyqo/sayj/";
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/Categories/arIslamicStudies" : "https://www.kingfaisalappstore.org/Categories/enIslamicStudies";
     }
 
     public String getMedicalLink() {
-        return isRTLLanguage ? "https://online.fliphtml5.com/miyqo/lecy/" : "https://online.fliphtml5.com/miyqo/qeaz/";
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/Categories/arMedicine" : "https://www.kingfaisalappstore.org/Categories/enMedicine";
     }
 
     public String getScienceLink() {
-        return isRTLLanguage ? "https://online.fliphtml5.com/miyqo/trpx/" : "https://online.fliphtml5.com/miyqo/suzk/";
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/Categories/arScience" : "https://www.kingfaisalappstore.org/Categories/enScience";
     }
 
     public String getNomination() {
         return isRTLLanguage ? "الترشيح للجائزة" : "Nominations";
     }
 
-    public String getNominationLink() {
-        return isRTLLanguage ? "https://kingfaisalprize.org/nomination/login.php" : "https://kingfaisalprize.org/nomination/login.php";
+    public String getNominationScience() {
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/Nominations/ar_science" : "https://www.kingfaisalappstore.org/Nominations/en_science";
+    }
+
+    public String getNominationEslam() {
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/Nominations/ar_service" : "https://www.kingfaisalappstore.org/Nominations/en_service";
+    }
+
+    public String getNominationStudies() {
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/Nominations/ar_studies" : "https://www.kingfaisalappstore.org/Nominations/en_studie";
+    }
+
+    public String getNominationArabic() {
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/Nominations/ar_arabic" : "https://www.kingfaisalappstore.org/Nominations/en_arabic";
+    }
+
+    public String getNominationMedical() {
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/Nominations/ar_medicine" : "https://www.kingfaisalappstore.org/Nominations/en_medicine";
     }
 
     public String getWinners() {
@@ -159,6 +175,10 @@ public class Ln {
 
     public String getContactus() {
         return isRTLLanguage ? "تواصل معنا" : "Contact Us";
+    }
+
+    public String getContactusLink() {
+        return isRTLLanguage ? "https://www.kingfaisalappstore.org/ar_contactUs" : "https://www.kingfaisalappstore.org/en_contactUs";
     }
 
     public String getChoose() {

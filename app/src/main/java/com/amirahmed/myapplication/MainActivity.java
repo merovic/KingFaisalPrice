@@ -269,7 +269,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                     public void onClick(View view) {
 
                         Intent intent = new Intent(MainActivity.this,WebActivity.class);
-                        intent.putExtra("url",ln.getNominationLink());
+                        intent.putExtra("url",ln.getNominationScience());
                         startActivity(intent);
                     }
                 });
@@ -298,7 +298,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                     public void onClick(View view) {
 
                         Intent intent = new Intent(MainActivity.this,WebActivity.class);
-                        intent.putExtra("url",ln.getContactus());
+                        intent.putExtra("url",ln.getContactusLink());
                         startActivity(intent);
                     }
                 });
@@ -479,15 +479,62 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 }
             }else if(selectedPosition==3)
             {
-                button.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
+                if(position==0)
+                {
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
 
-                        Intent intent = new Intent(MainActivity.this,WebActivity.class);
-                        intent.putExtra("url",ln.getNominationLink());
-                        startActivity(intent);
-                    }
-                });
+                            Intent intent = new Intent(MainActivity.this,WebActivity.class);
+                            intent.putExtra("url",ln.getNominationScience());
+                            startActivity(intent);
+                        }
+                    });
+                }else if(position==1)
+                {
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+
+                            Intent intent = new Intent(MainActivity.this,WebActivity.class);
+                            intent.putExtra("url",ln.getNominationEslam());
+                            startActivity(intent);
+                        }
+                    });
+                }else if(position==2)
+                {
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+
+                            Intent intent = new Intent(MainActivity.this,WebActivity.class);
+                            intent.putExtra("url",ln.getNominationArabic());
+                            startActivity(intent);
+                        }
+                    });
+                }else if(position==3)
+                {
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+
+                            Intent intent = new Intent(MainActivity.this,WebActivity.class);
+                            intent.putExtra("url",ln.getNominationStudies());
+                            startActivity(intent);
+                        }
+                    });
+                }else if(position==4)
+                {
+                    button.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+
+                            Intent intent = new Intent(MainActivity.this,WebActivity.class);
+                            intent.putExtra("url",ln.getNominationMedical());
+                            startActivity(intent);
+                        }
+                    });
+                }
             }
 
             parent.getId();

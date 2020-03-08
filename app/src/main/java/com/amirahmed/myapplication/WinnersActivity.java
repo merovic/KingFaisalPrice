@@ -51,6 +51,8 @@ public class WinnersActivity extends AppCompatActivity implements AdapterView.On
 
     TinyDB tinyDB;
 
+    String c_image,c_video,c_url,c_file;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -166,7 +168,19 @@ public class WinnersActivity extends AppCompatActivity implements AdapterView.On
             @Override
             public void onClick(View view) {
 
-                Toast.makeText(WinnersActivity.this,ln.getChoose(),Toast.LENGTH_SHORT).show();
+                if(spinner3.getSelectedItemPosition() == 0)
+                {
+                    Toast.makeText(WinnersActivity.this,ln.getChoose(),Toast.LENGTH_SHORT).show();
+                }else
+                    {
+                        Intent intent = new Intent(WinnersActivity.this,Web2Activity.class);
+                        intent.putExtra("url",c_url);
+                        intent.putExtra("image", c_image);
+                        intent.putExtra("file",c_file);
+                        intent.putExtra("video",c_video);
+                        startActivity(intent);
+                    }
+
             }
         });
 
@@ -258,22 +272,25 @@ public class WinnersActivity extends AppCompatActivity implements AdapterView.On
         {
 
             JSON_DATA_WEB_CALL3();
+            spinner2.setSelection(0);
+            spinner3.setSelection(0);
+
 
         }else if(parent.getId() == R.id.spinner2)
         {
 
             JSON_DATA_WEB_CALL3();
+            spinner3.setSelection(0);
 
         }else
             {
                 if(position!=0)
                 {
-                    Intent intent = new Intent(WinnersActivity.this,Web2Activity.class);
-                    intent.putExtra("url",winnerRootClasses[position-1].getUrl());
-                    intent.putExtra("image", "https://www.kingfaisalappstore.org/" +  winnerRootClasses[position-1].getCertif());
-                    intent.putExtra("file","https://www.kingfaisalappstore.org/" + winnerRootClasses[position-1].getFile());
-                    intent.putExtra("video","https://www.kingfaisalappstore.org/" + winnerRootClasses[position-1].getVideo());
-                    startActivity(intent);
+
+                    c_url = winnerRootClasses[position-1].getUrl();
+                    c_image = "https://www.kingfaisalappstore.org/" +  winnerRootClasses[position-1].getCertif();
+                    c_file = "https://www.kingfaisalappstore.org/" + winnerRootClasses[position-1].getFile();
+                    c_video = "https://www.kingfaisalappstore.org/" + winnerRootClasses[position-1].getVideo();
                 }
 
             }

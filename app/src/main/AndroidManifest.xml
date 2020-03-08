@@ -24,16 +24,22 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning"
         tools:targetApi="m">
-        <activity android:name="com.amirahmed.myapplication.MainActivity">
+        <activity android:name="com.amirahmed.myapplication.MainActivity"
+            android:screenOrientation="portrait">
 
         </activity>
-        <activity android:name="com.amirahmed.myapplication.WinnersActivity" />
-        <activity android:name="com.amirahmed.myapplication.WinnersListActivity" />
-        <activity android:name="com.amirahmed.myapplication.WebActivity" />
-        <activity android:name=".Web2Activity"/>
-        <activity android:name=".VideoActivity"/>
+        <activity android:name="com.amirahmed.myapplication.WinnersActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.amirahmed.myapplication.WinnersListActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.amirahmed.myapplication.WebActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Web2Activity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".VideoActivity" />
 
-        <activity android:name="com.amirahmed.myapplication.Splash">
+        <activity android:name="com.amirahmed.myapplication.Splash"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
