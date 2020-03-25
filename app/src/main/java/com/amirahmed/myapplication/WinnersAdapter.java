@@ -34,6 +34,8 @@ public class WinnersAdapter extends RecyclerView.Adapter<WinnersAdapter.WinnersV
         return new WinnersViewHolder(view);
     }
 
+    //fin
+
     @Override
     public void onBindViewHolder(@NonNull WinnersViewHolder holder, final int position) {
 
